@@ -1,0 +1,176 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FFF8DC;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #DEB887;
+	border-radius: 0; 
+	border: 0;
+}
+
+
+.navbar-brand {
+	padding-top: 15px;
+}
+
+.navbar-brand h1{ 
+font-family: 'Lora', serif;
+color: #FFF5EE;
+font-size: 1.5em
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+/* Collapse button */
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+/* END HEADER */
+
+
+/*Home page*/
+
+#main {
+	text-align: center;
+	color: #DEB887;
+	margin-bottom: 15px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+	width: 100%;
+	padding: 30px 10px 10px 10px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+}
+
+#chicken-tile {
+	background-color: #8FBC8F;
+}
+
+#beef-tile {
+	background-color: #8FBC8F;
+}
+
+#sushi-tile {
+	background-color: #8FBC8F;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	color: #fff;
+
+}
+/* END HOME PAGE */
+
+
+/* Large devices only */
+
+@media (min-width: 1200px){
+
+	/* Home Page */
+
+	/* End Home Page */
+}
+
+/* Medium devices only */
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*Small devices only */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Extra small devices only */
+
+@media (max-width: 767px) {
+	/*Header*/
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw; 
+	}
+	/* Collapse nav menu glyph */
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	/* End Header */
+	
+	/* Home Page */
+	#chicken-tile, #beef-tile, #sushi-tile{
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+	/* End Home Page */
+
+}
+
+/************ Super extra small devices Only **********/
+@media (max-width: 479px){
+	/*Header*/
+	.navbar-brand h1 { 
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	/*End Header*/
+	/* Home page */
+	#chicken-tile, #beef-tile , #sushi-tile{
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+	/*End Home Page */
+
+}
